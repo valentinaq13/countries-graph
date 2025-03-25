@@ -34,7 +34,7 @@ const CountryList = () => {
     );
 
   return (
-    <div>
+    <div className="p-6 min-h-screen">
       <h1 className="text-2xl font-bold text-gray-100 sm:text-3xl sm:tracking-tight mb-4">
         Country List
       </h1>

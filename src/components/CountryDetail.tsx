@@ -24,7 +24,7 @@ const CountryDetail = () => {
     </div>
   );
   return (
-    <div className="p-6 h-screen bg-gray-900 text-white">
+    <div className="p-6 h-screen text-white">
       <CountryDetailHeader
         country={data!.country}
         onBack={() => navigate(-1)}
